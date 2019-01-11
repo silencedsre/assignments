@@ -11,7 +11,7 @@ print(list_three)
 #wap to list a divisor of a num
 list=[]
 num=int(input("enter a num:"))
-for i in range(1,int(num/2)):
+for i in range(1,num):
     if num%i==0:
         list.append(i)
 list.append(num)
